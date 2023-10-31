@@ -118,5 +118,9 @@ namespace Koleckarna2ITB
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e) {
             //MessageBox.Show(comboBox1.SelectedIndex.ToString());
         }
+
+        private void button2_Click(object sender, EventArgs e) {
+            MessageBox.Show("Ahoj");
+        }
     }
 }
